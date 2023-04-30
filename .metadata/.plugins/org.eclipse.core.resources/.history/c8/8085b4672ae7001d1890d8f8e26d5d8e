@@ -1,0 +1,24 @@
+package com.ssafy.ssabang.notice.model.service;
+
+import com.ssafy.ssabang.notice.model.dto.User;
+import com.ssafy.ssabang.notice.model.mapper.UserMapper;
+
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+public class UserServiceImpl implements UserService{
+	
+	private UserMapper mapper;
+
+	@Override
+	public User select(String id) {
+		User user = mapper.select(id);
+		return null;
+	}
+
+	@Override
+	public int insert(User user) {
+		return 0;
+	}
+
+}

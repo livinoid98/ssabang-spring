@@ -1,0 +1,5 @@
+package com.ssafy.ssabang.notice.model.dto;
+
+public class User {
+
+}

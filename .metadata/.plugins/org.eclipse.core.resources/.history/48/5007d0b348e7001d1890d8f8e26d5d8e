@@ -1,0 +1,5 @@
+package com.ssafy.ssabang.notice.controller;
+
+public class NoticeController {
+
+}

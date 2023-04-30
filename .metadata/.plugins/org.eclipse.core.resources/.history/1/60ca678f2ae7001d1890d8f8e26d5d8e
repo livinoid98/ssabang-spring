@@ -1,0 +1,8 @@
+package com.ssafy.ssabang.notice.model.mapper;
+
+import com.ssafy.ssabang.notice.model.dto.User;
+
+public interface UserMapper {
+	User select(String id);
+	int insert(User user);
+}
